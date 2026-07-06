@@ -1,5 +1,59 @@
 {
-  "note": "Recomputed from data/predictions/*.json by the verify job after each session.",
+  "generated_at": "2026-07-06T19:34:40+05:30",
+  "notional_per_trade_inr": 10000,
   "total_predictions": 0,
-  "sessions": 0
+  "sessions": 0,
+  "metrics": {
+    "m1_gap": {
+      "overall": {
+        "success": 0,
+        "total": 0,
+        "pct": null
+      },
+      "by_direction": {},
+      "by_catalyst": {},
+      "by_confidence": {}
+    },
+    "m2_day_direction": {
+      "overall": {
+        "success": 0,
+        "total": 0,
+        "pct": null
+      },
+      "by_direction": {},
+      "by_catalyst": {},
+      "by_confidence": {}
+    },
+    "m3_tradeable": {
+      "overall": {
+        "success": 0,
+        "total": 0,
+        "pct": null
+      },
+      "by_direction": {},
+      "by_catalyst": {},
+      "by_confidence": {}
+    }
+  },
+  "simulated": {
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "no_entry": 0,
+    "total_pnl_pct": 0,
+    "total_pnl_inr": 0,
+    "equity_curve": []
+  },
+  "rolling_last20": {
+    "sessions": [],
+    "m3": {
+      "success": 0,
+      "total": 0,
+      "pct": null
+    }
+  },
+  "streak": {
+    "type": "none",
+    "count": 0
+  }
 }
