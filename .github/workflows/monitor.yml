@@ -1,0 +1,46 @@
+name: monitor
+
+on:
+  schedule:
+    - cron: "40 3 * * 1-5" # 09:10 IST; one long job through the session
+  workflow_dispatch:
+
+permissions:
+  contents: read # monitor never writes data
+
+concurrency:
+  group: newspulse-monitor
+  cancel-in-progress: true
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 400 # covers 09:10-15:30 IST with margin (limit is 6h)
+    steps:
+      - name: Check Telegram secrets
+        id: check
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -n "$TOKEN" ] && [ -n "$CHAT" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "Telegram secrets not configured - monitor skipped."
+          fi
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.enabled == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.check.outputs.enabled == 'true'
+        with:
+          python-version: "3.11"
+          cache: pip
+      - if: steps.check.outputs.enabled == 'true'
+        run: pip install -r requirements.txt
+      - name: Run intraday monitor
+        if: steps.check.outputs.enabled == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m src.jobs.monitor

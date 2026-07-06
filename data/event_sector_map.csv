@@ -1,0 +1,15 @@
+event,keywords,positive_sectors,negative_sectors
+crude_up,crude oil surges|crude oil jumps|brent rises|brent surges|oil prices rise|oil prices jump|opec cuts|opec output cut|crude rally,Oil & Gas,Paints|Aviation|Auto Ancillaries|Chemicals|Cement
+crude_down,crude oil falls|crude oil slides|brent falls|brent slides|oil prices fall|oil prices drop|oil slumps|crude slumps,Paints|Aviation|Auto Ancillaries|Chemicals|Cement,Oil & Gas
+usdinr_up,rupee falls|rupee weakens|rupee slides|rupee hits low|rupee depreciates|dollar strengthens against rupee,IT|Pharma|Textiles,Aviation|Oil & Gas
+usdinr_down,rupee rises|rupee strengthens|rupee gains|rupee appreciates|dollar weakens against rupee,Aviation|Oil & Gas,IT|Pharma|Textiles
+us_tech_rally,nasdaq rallies|nasdaq surges|us tech rally|tech stocks surge|nasdaq jumps|wall street rallies,IT|Internet,
+us_tech_selloff,nasdaq falls|nasdaq slides|nasdaq tumbles|us tech selloff|tech stocks fall|wall street tumbles|nasdaq sinks,,IT|Internet
+metals_rally,metal prices rise|copper surges|aluminium rises|steel prices rise|china stimulus|iron ore rallies|lme metals,Metals|Mining,
+metals_selloff,metal prices fall|copper slides|aluminium falls|steel prices fall|iron ore slumps,,Metals|Mining
+gold_rally,gold surges|gold hits record|gold rallies|gold prices jump|gold at all-time high,Jewellery,
+rbi_rate_cut,rbi cuts repo|repo rate cut|rbi rate cut|rbi eases|monetary policy easing,Banking|NBFC|Realty|Auto,
+rbi_rate_hike,rbi hikes repo|repo rate hike|rbi rate hike|rbi tightens|monetary policy tightening,Banking,NBFC|Realty|Auto
+defense_orders,defence order|defense order|defence contract|defence acquisition council|ministry of defence order|dac approves,Defence,
+it_positive,it hiring picks up|deal wins|strong it guidance|it spending recovery|large deal win,IT,
+it_negative,it guidance cut|weak it guidance|h-1b|visa curbs|it spending cuts|tech budgets shrink,,IT

@@ -1,0 +1,7 @@
+httpx==0.28.1
+feedparser==6.0.11
+yfinance==0.2.61
+pandas==2.2.3
+google-genai==1.21.1
+python-dotenv==1.1.0
+tzdata==2025.2
