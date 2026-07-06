@@ -32,3 +32,4 @@ jobs:
         env:
           FORCE_RUN: ${{ github.event.inputs.force == 'true' && '1' || '' }}
         run: python -m src.jobs.gapcheck
+# registered
