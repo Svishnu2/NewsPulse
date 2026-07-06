@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "date": "2026-07-06",
+    "bias": "bullish",
+    "picks": 6,
+    "m3_success": 3,
+    "m3_total": 6,
+    "day_pnl_inr": 67.0,
+    "status": "verified"
+  }
+]

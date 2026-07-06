@@ -1,2 +1,10 @@
 2026-07-06 14:04:40,804 INFO newspulse.verify: No predictions for 2026-07-06 — refreshing stats/dashboard only
 2026-07-06 14:04:40,806 INFO newspulse.verify: Stats: 0 predictions over 0 sessions, m3 None%, sim P&L Rs 0
+2026-07-06 14:38:49,269 INFO newspulse.verify: NYKAA: m1=True m2=True m3=False trade=LOSS -1.10%
+2026-07-06 14:38:49,353 INFO newspulse.verify: INDUSINDBK: m1=False m2=True m3=True trade=WIN 1.40%
+2026-07-06 14:38:49,362 INFO newspulse.verify: VEDL: m1=False m2=False m3=False trade=LOSS -1.09%
+2026-07-06 14:38:49,415 INFO newspulse.verify: BEL: m1=True m2=True m3=False trade=NO_ENTRY 0.00%
+2026-07-06 14:38:49,429 INFO newspulse.verify: BANKBARODA: m1=False m2=True m3=True trade=WIN 0.06%
+2026-07-06 14:38:49,506 INFO newspulse.verify: M&M: m1=True m2=True m3=True trade=WIN 1.40%
+2026-07-06 14:38:49,507 INFO newspulse.verify: Verified 6 predictions for 2026-07-06
+2026-07-06 14:38:49,508 INFO newspulse.verify: Stats: 6 predictions over 1 sessions, m3 50.0%, sim P&L Rs 67

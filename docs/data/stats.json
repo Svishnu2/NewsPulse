@@ -1,59 +1,181 @@
 {
-  "generated_at": "2026-07-06T19:34:40+05:30",
+  "generated_at": "2026-07-06T20:08:49+05:30",
   "notional_per_trade_inr": 10000,
-  "total_predictions": 0,
-  "sessions": 0,
+  "total_predictions": 6,
+  "sessions": 1,
   "metrics": {
     "m1_gap": {
       "overall": {
-        "success": 0,
-        "total": 0,
-        "pct": null
+        "success": 3,
+        "total": 6,
+        "pct": 50.0
       },
-      "by_direction": {},
-      "by_catalyst": {},
-      "by_confidence": {}
+      "by_direction": {
+        "LONG": {
+          "success": 3,
+          "total": 4,
+          "pct": 75.0
+        },
+        "SHORT": {
+          "success": 0,
+          "total": 2,
+          "pct": 0.0
+        }
+      },
+      "by_catalyst": {
+        "corporate_action": {
+          "success": 1,
+          "total": 3,
+          "pct": 33.3
+        },
+        "rating_action": {
+          "success": 1,
+          "total": 2,
+          "pct": 50.0
+        },
+        "regulatory": {
+          "success": 1,
+          "total": 1,
+          "pct": 100.0
+        }
+      },
+      "by_confidence": {
+        "70-85": {
+          "success": 1,
+          "total": 3,
+          "pct": 33.3
+        },
+        "85+": {
+          "success": 2,
+          "total": 3,
+          "pct": 66.7
+        }
+      }
     },
     "m2_day_direction": {
       "overall": {
-        "success": 0,
-        "total": 0,
-        "pct": null
+        "success": 5,
+        "total": 6,
+        "pct": 83.3
       },
-      "by_direction": {},
-      "by_catalyst": {},
-      "by_confidence": {}
+      "by_direction": {
+        "LONG": {
+          "success": 4,
+          "total": 4,
+          "pct": 100.0
+        },
+        "SHORT": {
+          "success": 1,
+          "total": 2,
+          "pct": 50.0
+        }
+      },
+      "by_catalyst": {
+        "corporate_action": {
+          "success": 2,
+          "total": 3,
+          "pct": 66.7
+        },
+        "rating_action": {
+          "success": 2,
+          "total": 2,
+          "pct": 100.0
+        },
+        "regulatory": {
+          "success": 1,
+          "total": 1,
+          "pct": 100.0
+        }
+      },
+      "by_confidence": {
+        "70-85": {
+          "success": 3,
+          "total": 3,
+          "pct": 100.0
+        },
+        "85+": {
+          "success": 2,
+          "total": 3,
+          "pct": 66.7
+        }
+      }
     },
     "m3_tradeable": {
       "overall": {
-        "success": 0,
-        "total": 0,
-        "pct": null
+        "success": 3,
+        "total": 6,
+        "pct": 50.0
       },
-      "by_direction": {},
-      "by_catalyst": {},
-      "by_confidence": {}
+      "by_direction": {
+        "LONG": {
+          "success": 2,
+          "total": 4,
+          "pct": 50.0
+        },
+        "SHORT": {
+          "success": 1,
+          "total": 2,
+          "pct": 50.0
+        }
+      },
+      "by_catalyst": {
+        "corporate_action": {
+          "success": 1,
+          "total": 3,
+          "pct": 33.3
+        },
+        "rating_action": {
+          "success": 2,
+          "total": 2,
+          "pct": 100.0
+        },
+        "regulatory": {
+          "success": 0,
+          "total": 1,
+          "pct": 0.0
+        }
+      },
+      "by_confidence": {
+        "70-85": {
+          "success": 3,
+          "total": 3,
+          "pct": 100.0
+        },
+        "85+": {
+          "success": 0,
+          "total": 3,
+          "pct": 0.0
+        }
+      }
     }
   },
   "simulated": {
-    "trades": 0,
-    "wins": 0,
-    "losses": 0,
-    "no_entry": 0,
-    "total_pnl_pct": 0,
-    "total_pnl_inr": 0,
-    "equity_curve": []
+    "trades": 5,
+    "wins": 3,
+    "losses": 2,
+    "no_entry": 1,
+    "total_pnl_pct": 0.67,
+    "total_pnl_inr": 67.0,
+    "equity_curve": [
+      {
+        "date": "2026-07-06",
+        "day_pnl_inr": 67.0,
+        "cum_pnl_inr": 67.0
+      }
+    ]
   },
   "rolling_last20": {
-    "sessions": [],
+    "sessions": [
+      "2026-07-06"
+    ],
     "m3": {
-      "success": 0,
-      "total": 0,
-      "pct": null
+      "success": 3,
+      "total": 6,
+      "pct": 50.0
     }
   },
   "streak": {
-    "type": "none",
-    "count": 0
+    "type": "win",
+    "count": 3
   }
 }
