@@ -1,0 +1,134 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T19:57:37+05:30",
+  "status": "pending",
+  "market_context": {
+    "bias": "bullish",
+    "reasons": [
+      "Strong overnight performance in US markets with Nasdaq gaining 1.13% and Nasdaq futures up 1.59%.",
+      "Positive Asian cues with Hang Seng up 1.14% and stable Brent crude prices.",
+      "Strong domestic institutional and retail momentum supported by positive Q1 business updates."
+    ],
+    "cues": {
+      "sp500": {
+        "last": 7526.68,
+        "change_pct": 0.58,
+        "name": "S&P 500"
+      },
+      "nasdaq": {
+        "last": 26124.89,
+        "change_pct": 1.13,
+        "name": "Nasdaq"
+      },
+      "dow_futures": {
+        "last": 53064.0,
+        "change_pct": -0.22,
+        "name": "Dow futures"
+      },
+      "nasdaq_futures": {
+        "last": 30025.75,
+        "change_pct": 1.59,
+        "name": "Nasdaq futures"
+      },
+      "nikkei": {
+        "last": 69737.69,
+        "change_pct": -0.01,
+        "name": "Nikkei 225"
+      },
+      "hang_seng": {
+        "last": 23616.32,
+        "change_pct": 1.14,
+        "name": "Hang Seng"
+      },
+      "brent": {
+        "last": 72.03,
+        "change_pct": 0.32,
+        "name": "Brent crude"
+      },
+      "gold": {
+        "last": 4151.0,
+        "change_pct": 0.93,
+        "name": "Gold"
+      },
+      "usdinr": {
+        "last": 95.39,
+        "change_pct": -0.15,
+        "name": "USD/INR"
+      }
+    }
+  },
+  "predictions": [
+    {
+      "symbol": "BEL",
+      "sector": "Defence",
+      "direction": "LONG",
+      "confidence": 86,
+      "catalyst_type": "regulatory",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Boosted by DAC's massive Rs 52,000-crore procurement approval, driving strong sector-wide buying momentum.",
+      "source_headline": "HAL, BEL to Zen Technologies: Defence stocks rally on ₹52,000 crore procurement boost; check key beneficiaries",
+      "avg_turnover_cr": 537.04
+    },
+    {
+      "symbol": "NYKAA",
+      "sector": "Internet",
+      "direction": "LONG",
+      "confidence": 85,
+      "catalyst_type": "corporate_action",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Strong Q1 business update showing nearly 30% revenue and GMV growth, attracting strong investor interest.",
+      "source_headline": "Nykaa shares rise 3% as Q1 update signals nearly 30% revenue growth, GMV",
+      "avg_turnover_cr": 294.76
+    },
+    {
+      "symbol": "VEDL",
+      "sector": "Metals",
+      "direction": "SHORT",
+      "confidence": 85,
+      "catalyst_type": "corporate_action",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Weak Q1 updates across key segments like Oil & Gas, Iron & Steel, and Power triggered sharp sell-offs.",
+      "source_headline": "Vedanta Oil & Gas, Vedanta Iron & Steel, Vedanta Power shares crash up to 8% post Q1 updates; Vedanta Aluminium rises",
+      "avg_turnover_cr": 768.23
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "sector": "Banking",
+      "direction": "LONG",
+      "confidence": 82,
+      "catalyst_type": "corporate_action",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Strong Q1 business update pushed the stock to a 52-week high with robust volume support.",
+      "source_headline": "IndusInd Bank extends up move, gains 3%; stock at 52-week high - Business Standard",
+      "avg_turnover_cr": 220.82
+    },
+    {
+      "symbol": "BANKBARODA",
+      "sector": "Banking",
+      "direction": "SHORT",
+      "confidence": 80,
+      "catalyst_type": "rating_action",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Nomura's neutral stance highlights that the NMC settlement could wipe out nearly a quarter's profit.",
+      "source_headline": "Nomura stays 'Neutral' on Bank of Baroda, says NMC settlement could wipe out nearly one quarter's profit",
+      "avg_turnover_cr": 395.05
+    },
+    {
+      "symbol": "M&M",
+      "sector": "Auto",
+      "direction": "LONG",
+      "confidence": 80,
+      "catalyst_type": "rating_action",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Named as a top pick by Nomura following strong June sales and positive EV inflection outlook.",
+      "source_headline": "Nomura names M&M, Hyundai, Ather Energy as top picks after June auto sales; says EV penetration at inflection point",
+      "avg_turnover_cr": 928.9
+    }
+  ]
+}
