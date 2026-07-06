@@ -36,3 +36,4 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FORCE_RUN: ${{ github.event.inputs.force == 'true' && '1' || '' }}
         run: python -m src.jobs.premarket
+# registered
