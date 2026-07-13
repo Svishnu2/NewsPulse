@@ -1,0 +1,2 @@
+2026-07-13 12:44:44,788 INFO newspulse.verify: No predictions for 2026-07-13 — refreshing stats/dashboard only
+2026-07-13 12:44:44,790 INFO newspulse.verify: Stats: 6 predictions over 1 sessions, m3 50.0%, sim P&L Rs 67
