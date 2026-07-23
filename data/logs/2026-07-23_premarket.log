@@ -1,0 +1,2 @@
+2026-07-23 05:38:35,592 INFO newspulse.premarket: Pre-market job starting at 2026-07-23T11:08:35+05:30
+2026-07-23 05:38:35,592 WARNING newspulse.premarket: ABORT: started 11:08 IST, after the 09:10 cutoff (GitHub cron lateness guard). Predictions made this close to the open would be unusable.
