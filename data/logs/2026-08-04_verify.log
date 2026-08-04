@@ -1,0 +1,2 @@
+2026-08-04 12:25:01,804 INFO newspulse.verify: No predictions for 2026-08-04 — refreshing stats/dashboard only
+2026-08-04 12:25:01,806 INFO newspulse.verify: Stats: 6 predictions over 1 sessions, m3 50.0%, sim P&L Rs 67
