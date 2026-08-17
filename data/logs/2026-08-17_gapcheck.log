@@ -1,0 +1,4 @@
+2026-08-17 04:53:52,995 INFO newspulse.gapcheck: COCHINSHIP: gap -3.13% (agrees=True), OR 1449.7-1494.4
+2026-08-17 04:53:53,015 INFO newspulse.gapcheck: UPL: gap +0.44% (agrees=True), OR 562.0-565.45
+2026-08-17 04:53:53,023 INFO newspulse.gapcheck: ASHOKLEY: gap +2.56% (agrees=True), OR 173.78-176.04
+2026-08-17 04:53:53,030 INFO newspulse.gapcheck: VOLTAS: gap +1.44% (agrees=True), OR 1291.5-1339.5

@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
   "generated_at": "2026-08-17T08:57:33+05:30",
-  "status": "pending",
+  "status": "gap_checked",
   "market_context": {
     "bias": "bullish",
     "reasons": [
@@ -63,7 +63,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Reported a 19% YoY drop in Q1 net profit, which is likely to trigger immediate post-earnings selling pressure.",
       "source_headline": "Cochin Shipyard Q1 Results: Profit falls 19% YoY to Rs 151 crore, revenue up marginally",
-      "avg_turnover_cr": 139.73
+      "avg_turnover_cr": 139.73,
+      "gap_check": {
+        "prev_close": 1496.5,
+        "open": 1449.7,
+        "gap_pct": -3.13,
+        "or_high": 1494.4,
+        "or_low": 1449.7,
+        "price_0930": 1462.6,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-17T10:23:52+05:30"
+      }
     },
     {
       "symbol": "ASHOKLEY",
@@ -75,7 +86,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Delivered solid 10% revenue growth to Rs 10,750 crore alongside steady profit growth in Q1 results.",
       "source_headline": "Ashok Leyland Q1 profit rises 2% as revenue jumps 10% to Rs 10,750 crore",
-      "avg_turnover_cr": 319.73
+      "avg_turnover_cr": 319.73,
+      "gap_check": {
+        "prev_close": 171.64,
+        "open": 176.04,
+        "gap_pct": 2.56,
+        "or_high": 176.04,
+        "or_low": 173.78,
+        "price_0930": 174.8,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-17T10:23:53+05:30"
+      }
     },
     {
       "symbol": "UPL",
@@ -87,7 +109,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Announced fresh acquisition activity and credit rating revision over the weekend supporting sentiment.",
       "source_headline": "UPL: Acquisition",
-      "avg_turnover_cr": 108.73
+      "avg_turnover_cr": 108.73,
+      "gap_check": {
+        "prev_close": 563.0,
+        "open": 565.45,
+        "gap_pct": 0.44,
+        "or_high": 565.45,
+        "or_low": 562.0,
+        "price_0930": 562.25,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-17T10:23:53+05:30"
+      }
     },
     {
       "symbol": "VOLTAS",
@@ -99,7 +132,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Multiple fresh commercial agreement disclosures and institutional focus set to support positive opening traction.",
       "source_headline": "VOLTAS: Agreements",
-      "avg_turnover_cr": 79.1
+      "avg_turnover_cr": 79.1,
+      "gap_check": {
+        "prev_close": 1320.5,
+        "open": 1339.5,
+        "gap_pct": 1.44,
+        "or_high": 1339.5,
+        "or_low": 1291.5,
+        "price_0930": 1299.8,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-17T10:23:53+05:30"
+      }
     }
   ]
 }
