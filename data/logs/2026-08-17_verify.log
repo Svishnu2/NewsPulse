@@ -1,0 +1,6 @@
+2026-08-17 10:56:14,081 INFO newspulse.verify: VOLTAS: m1=True m2=False m3=False trade=NO_ENTRY 0.00%
+2026-08-17 10:56:14,095 INFO newspulse.verify: UPL: m1=True m2=True m3=True trade=WIN 0.25%
+2026-08-17 10:56:14,100 INFO newspulse.verify: COCHINSHIP: m1=True m2=True m3=True trade=NO_ENTRY 0.00%
+2026-08-17 10:56:14,110 INFO newspulse.verify: ASHOKLEY: m1=True m2=True m3=True trade=WIN 1.40%
+2026-08-17 10:56:14,111 INFO newspulse.verify: Verified 4 predictions for 2026-08-17
+2026-08-17 10:56:14,113 INFO newspulse.verify: Stats: 10 predictions over 2 sessions, m3 60.0%, sim P&L Rs 232
