@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T08:57:33+05:30",
+  "status": "pending",
+  "market_context": {
+    "bias": "bullish",
+    "reasons": [
+      "Hang Seng and Asian markets trading strongly positive",
+      "US Nasdaq futures pointing to positive global risk appetite",
+      "Domestic corporate earnings and structural flow momentum"
+    ],
+    "cues": {
+      "sp500": {
+        "last": 7785.76,
+        "change_pct": -0.17,
+        "name": "S&P 500"
+      },
+      "dow_futures": {
+        "last": 53727.0,
+        "change_pct": -0.15,
+        "name": "Dow futures"
+      },
+      "nasdaq_futures": {
+        "last": 30233.0,
+        "change_pct": 0.3,
+        "name": "Nasdaq futures"
+      },
+      "nikkei": {
+        "last": 68721.44,
+        "change_pct": 0.01,
+        "name": "Nikkei 225"
+      },
+      "hang_seng": {
+        "last": 25527.95,
+        "change_pct": 1.64,
+        "name": "Hang Seng"
+      },
+      "brent": {
+        "last": 88.72,
+        "change_pct": 0.23,
+        "name": "Brent crude"
+      },
+      "gold": {
+        "last": 4446.3,
+        "change_pct": 1.5,
+        "name": "Gold"
+      },
+      "usdinr": {
+        "last": 95.42,
+        "change_pct": 0.01,
+        "name": "USD/INR"
+      }
+    }
+  },
+  "predictions": [
+    {
+      "symbol": "COCHINSHIP",
+      "sector": "Defence",
+      "direction": "SHORT",
+      "confidence": 78,
+      "catalyst_type": "earnings",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Reported a 19% YoY drop in Q1 net profit, which is likely to trigger immediate post-earnings selling pressure.",
+      "source_headline": "Cochin Shipyard Q1 Results: Profit falls 19% YoY to Rs 151 crore, revenue up marginally",
+      "avg_turnover_cr": 139.73
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "sector": "Auto",
+      "direction": "LONG",
+      "confidence": 72,
+      "catalyst_type": "earnings",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Delivered solid 10% revenue growth to Rs 10,750 crore alongside steady profit growth in Q1 results.",
+      "source_headline": "Ashok Leyland Q1 profit rises 2% as revenue jumps 10% to Rs 10,750 crore",
+      "avg_turnover_cr": 319.73
+    },
+    {
+      "symbol": "UPL",
+      "sector": "Chemicals",
+      "direction": "LONG",
+      "confidence": 68,
+      "catalyst_type": "corporate_action",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Announced fresh acquisition activity and credit rating revision over the weekend supporting sentiment.",
+      "source_headline": "UPL: Acquisition",
+      "avg_turnover_cr": 108.73
+    },
+    {
+      "symbol": "VOLTAS",
+      "sector": "Consumer Durables",
+      "direction": "LONG",
+      "confidence": 65,
+      "catalyst_type": "corporate_action",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Multiple fresh commercial agreement disclosures and institutional focus set to support positive opening traction.",
+      "source_headline": "VOLTAS: Agreements",
+      "avg_turnover_cr": 79.1
+    }
+  ]
+}
