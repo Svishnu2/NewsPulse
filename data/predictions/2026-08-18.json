@@ -1,7 +1,7 @@
 {
   "date": "2026-08-18",
   "generated_at": "2026-08-18T08:52:47+05:30",
-  "status": "pending",
+  "status": "gap_checked",
   "market_context": {
     "bias": "bearish",
     "reasons": [
@@ -68,7 +68,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Resilient Asset offloading 4.98% stake worth Rs 4,895 crore at a 3% discount creates immediate supply overhang.",
       "source_headline": "Paytm block deal: Resilient Asset to sell up to Rs 4,895 crore stake at 3% discount",
-      "avg_turnover_cr": 708.0
+      "avg_turnover_cr": 708.0,
+      "gap_check": {
+        "prev_close": 1580.2,
+        "open": 1584.4,
+        "gap_pct": 0.27,
+        "or_high": 1596.8,
+        "or_low": 1557.7,
+        "price_0930": 1560.2,
+        "gap_agrees": false,
+        "interval": "1m",
+        "checked_at": "2026-08-18T10:16:59+05:30"
+      }
     },
     {
       "symbol": "ONGC",
@@ -80,7 +91,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Brent crude surging over 3.3% above $91 directly improves upstream realization and profitability.",
       "source_headline": "US stocks: US market slips as oil prices rise, retail results awaited",
-      "avg_turnover_cr": 299.21
+      "avg_turnover_cr": 299.21,
+      "gap_check": {
+        "prev_close": 238.49,
+        "open": 239.2,
+        "gap_pct": 0.3,
+        "or_high": 241.3,
+        "or_low": 239.2,
+        "price_0930": 240.84,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-18T10:16:59+05:30"
+      }
     },
     {
       "symbol": "INDIGO",
@@ -92,7 +114,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Spike in Brent crude raises aviation turbine fuel expenses amid a weak broader market environment.",
       "source_headline": "US stocks: US market slips as oil prices rise, retail results awaited",
-      "avg_turnover_cr": 413.82
+      "avg_turnover_cr": 413.82,
+      "gap_check": {
+        "prev_close": 5275.5,
+        "open": 5177.5,
+        "gap_pct": -1.86,
+        "or_high": 5231.0,
+        "or_low": 5177.5,
+        "price_0930": 5213.0,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-18T10:16:58+05:30"
+      }
     },
     {
       "symbol": "ASIANPAINT",
@@ -104,7 +137,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Crude oil surge past $91 elevates raw material input costs and pressurizes operating margins.",
       "source_headline": "US stocks: US market slips as oil prices rise, retail results awaited",
-      "avg_turnover_cr": 274.64
+      "avg_turnover_cr": 274.64,
+      "gap_check": {
+        "prev_close": 2687.5,
+        "open": 2657.2,
+        "gap_pct": -1.13,
+        "or_high": 2666.0,
+        "or_low": 2644.0,
+        "price_0930": 2658.5,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-18T10:16:58+05:30"
+      }
     },
     {
       "symbol": "INFY",
@@ -116,7 +160,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Tech stocks face continued selling pressure following Nasdaq declines and overnight global tech weakness.",
       "source_headline": "IT stocks fall up to 2.5% amid profit booking; TCS, Infosys top losers - TradingView",
-      "avg_turnover_cr": 1487.37
+      "avg_turnover_cr": 1487.37,
+      "gap_check": {
+        "prev_close": 1139.9,
+        "open": 1122.5,
+        "gap_pct": -1.53,
+        "or_high": 1128.6,
+        "or_low": 1119.4,
+        "price_0930": 1120.0,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-18T10:16:59+05:30"
+      }
     },
     {
       "symbol": "LT",
@@ -128,7 +183,18 @@
       "expected_behavior": "fade_risk",
       "rationale": "Fresh order wins provide fundamental support, though weak broad market cues may limit follow-through.",
       "source_headline": "LT: Bagging/Receiving of orders/contracts",
-      "avg_turnover_cr": 651.79
+      "avg_turnover_cr": 651.79,
+      "gap_check": {
+        "prev_close": 4086.7,
+        "open": 4057.8,
+        "gap_pct": -0.71,
+        "or_high": 4068.0,
+        "or_low": 4056.0,
+        "price_0930": 4057.8,
+        "gap_agrees": false,
+        "interval": "1m",
+        "checked_at": "2026-08-18T10:16:59+05:30"
+      }
     }
   ]
 }

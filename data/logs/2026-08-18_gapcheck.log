@@ -1,0 +1,6 @@
+2026-08-18 04:46:58,910 INFO newspulse.gapcheck: ASIANPAINT: gap -1.13% (agrees=True), OR 2644.0-2666.0
+2026-08-18 04:46:58,983 INFO newspulse.gapcheck: INDIGO: gap -1.86% (agrees=True), OR 5177.5-5231.0
+2026-08-18 04:46:59,007 INFO newspulse.gapcheck: PAYTM: gap +0.27% (agrees=False), OR 1557.7-1596.8
+2026-08-18 04:46:59,049 INFO newspulse.gapcheck: LT: gap -0.71% (agrees=False), OR 4056.0-4068.0
+2026-08-18 04:46:59,071 INFO newspulse.gapcheck: ONGC: gap +0.30% (agrees=True), OR 239.2-241.3
+2026-08-18 04:46:59,079 INFO newspulse.gapcheck: INFY: gap -1.53% (agrees=True), OR 1119.4-1128.6
