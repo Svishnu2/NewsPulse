@@ -1,0 +1,8 @@
+2026-08-18 10:55:07,377 INFO newspulse.verify: PAYTM: m1=False m2=True m3=True trade=LOSS -1.10%
+2026-08-18 10:55:07,381 INFO newspulse.verify: INDIGO: m1=True m2=True m3=True trade=NO_ENTRY 0.00%
+2026-08-18 10:55:07,401 INFO newspulse.verify: ASIANPAINT: m1=True m2=True m3=True trade=WIN 0.47%
+2026-08-18 10:55:07,412 INFO newspulse.verify: ONGC: m1=True m2=True m3=False trade=NO_ENTRY 0.00%
+2026-08-18 10:55:07,524 INFO newspulse.verify: INFY: m1=True m2=True m3=True trade=WIN 0.36%
+2026-08-18 10:55:07,541 INFO newspulse.verify: LT: m1=False m2=False m3=True trade=LOSS -0.05%
+2026-08-18 10:55:07,542 INFO newspulse.verify: Verified 6 predictions for 2026-08-18
+2026-08-18 10:55:07,545 INFO newspulse.verify: Stats: 16 predictions over 3 sessions, m3 68.8%, sim P&L Rs 200
