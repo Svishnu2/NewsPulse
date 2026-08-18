@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T08:52:47+05:30",
+  "status": "pending",
+  "market_context": {
+    "bias": "bearish",
+    "reasons": [
+      "US and global equity futures trading lower amid geopolitical and macro risks.",
+      "Brent crude surging over 3.3% to cross $91 puts pressure on domestic inflation and rupee.",
+      "Weak Asian cues with Nikkei dropping nearly 1%."
+    ],
+    "cues": {
+      "sp500": {
+        "last": 7745.06,
+        "change_pct": -0.52,
+        "name": "S&P 500"
+      },
+      "nasdaq": {
+        "last": 26644.91,
+        "change_pct": -0.32,
+        "name": "Nasdaq"
+      },
+      "dow_futures": {
+        "last": 53520.0,
+        "change_pct": -0.53,
+        "name": "Dow futures"
+      },
+      "nasdaq_futures": {
+        "last": 29893.5,
+        "change_pct": -0.82,
+        "name": "Nasdaq futures"
+      },
+      "nikkei": {
+        "last": 68098.54,
+        "change_pct": -0.9,
+        "name": "Nikkei 225"
+      },
+      "hang_seng": {
+        "last": 25295.37,
+        "change_pct": 0.71,
+        "name": "Hang Seng"
+      },
+      "brent": {
+        "last": 91.44,
+        "change_pct": 3.3,
+        "name": "Brent crude"
+      },
+      "gold": {
+        "last": 4456.8,
+        "change_pct": 1.74,
+        "name": "Gold"
+      },
+      "usdinr": {
+        "last": 95.59,
+        "change_pct": 0.15,
+        "name": "USD/INR"
+      }
+    }
+  },
+  "predictions": [
+    {
+      "symbol": "PAYTM",
+      "sector": "Internet",
+      "direction": "SHORT",
+      "confidence": 88,
+      "catalyst_type": "corporate_action",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Resilient Asset offloading 4.98% stake worth Rs 4,895 crore at a 3% discount creates immediate supply overhang.",
+      "source_headline": "Paytm block deal: Resilient Asset to sell up to Rs 4,895 crore stake at 3% discount",
+      "avg_turnover_cr": 708.0
+    },
+    {
+      "symbol": "ONGC",
+      "sector": "Oil & Gas",
+      "direction": "LONG",
+      "confidence": 78,
+      "catalyst_type": "macro_sector",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Brent crude surging over 3.3% above $91 directly improves upstream realization and profitability.",
+      "source_headline": "US stocks: US market slips as oil prices rise, retail results awaited",
+      "avg_turnover_cr": 299.21
+    },
+    {
+      "symbol": "INDIGO",
+      "sector": "Aviation",
+      "direction": "SHORT",
+      "confidence": 76,
+      "catalyst_type": "macro_sector",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Spike in Brent crude raises aviation turbine fuel expenses amid a weak broader market environment.",
+      "source_headline": "US stocks: US market slips as oil prices rise, retail results awaited",
+      "avg_turnover_cr": 413.82
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "sector": "Paints",
+      "direction": "SHORT",
+      "confidence": 75,
+      "catalyst_type": "macro_sector",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Crude oil surge past $91 elevates raw material input costs and pressurizes operating margins.",
+      "source_headline": "US stocks: US market slips as oil prices rise, retail results awaited",
+      "avg_turnover_cr": 274.64
+    },
+    {
+      "symbol": "INFY",
+      "sector": "IT",
+      "direction": "SHORT",
+      "confidence": 68,
+      "catalyst_type": "macro_sector",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Tech stocks face continued selling pressure following Nasdaq declines and overnight global tech weakness.",
+      "source_headline": "IT stocks fall up to 2.5% amid profit booking; TCS, Infosys top losers - TradingView",
+      "avg_turnover_cr": 1487.37
+    },
+    {
+      "symbol": "LT",
+      "sector": "Capital Goods",
+      "direction": "LONG",
+      "confidence": 65,
+      "catalyst_type": "order_win",
+      "priced_in": false,
+      "expected_behavior": "fade_risk",
+      "rationale": "Fresh order wins provide fundamental support, though weak broad market cues may limit follow-through.",
+      "source_headline": "LT: Bagging/Receiving of orders/contracts",
+      "avg_turnover_cr": 651.79
+    }
+  ]
+}
