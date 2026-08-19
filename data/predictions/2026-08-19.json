@@ -1,7 +1,7 @@
 {
   "date": "2026-08-19",
   "generated_at": "2026-08-19T08:54:58+05:30",
-  "status": "pending",
+  "status": "gap_checked",
   "market_context": {
     "bias": "bearish",
     "reasons": [
@@ -67,7 +67,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Heavy overnight sell-off in Nasdaq and US tech futures triggers broad risk-off pressure on Indian IT exporters.",
       "source_headline": "Infosys shares fall 6% in 5 days tracking weakness in IT shares - Should you buy, sell or hold? - Moneycontrol.com",
-      "avg_turnover_cr": 1497.64
+      "avg_turnover_cr": 1497.64,
+      "gap_check": {
+        "prev_close": 1115.0,
+        "open": 1126.3,
+        "gap_pct": 1.01,
+        "or_high": 1134.4,
+        "or_low": 1123.1,
+        "price_0930": 1128.9,
+        "gap_agrees": false,
+        "interval": "1m",
+        "checked_at": "2026-08-19T10:17:39+05:30"
+      }
     },
     {
       "symbol": "ASIANPAINT",
@@ -79,7 +90,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Rising crude oil prices significantly inflate raw material input costs and dampen paint sector operating margins.",
       "source_headline": "Sensex Nifty Tank as Crude Oil Jumps to $91/Barrel - Rediff MoneyWiz",
-      "avg_turnover_cr": 279.29
+      "avg_turnover_cr": 279.29,
+      "gap_check": {
+        "prev_close": 2628.4,
+        "open": 2625.0,
+        "gap_pct": -0.13,
+        "or_high": 2625.0,
+        "or_low": 2608.0,
+        "price_0930": 2616.8,
+        "gap_agrees": true,
+        "interval": "5m",
+        "checked_at": "2026-08-19T10:17:39+05:30"
+      }
     },
     {
       "symbol": "ONGC",
@@ -91,7 +113,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Surging crude oil prices above 91 dollars per barrel directly boost upstream realization and operational revenues.",
       "source_headline": "Oil prices rise for fourth straight day as US-Iran talks remain deadlocked; Brent above $90 per barrel",
-      "avg_turnover_cr": 303.32
+      "avg_turnover_cr": 303.32,
+      "gap_check": {
+        "prev_close": 239.5,
+        "open": 241.1,
+        "gap_pct": 0.67,
+        "or_high": 241.9,
+        "or_low": 239.91,
+        "price_0930": 240.45,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-19T10:17:39+05:30"
+      }
     },
     {
       "symbol": "INDIGO",
@@ -103,7 +136,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Higher global crude oil directly drives aviation turbine fuel prices, raising operating costs significantly.",
       "source_headline": "Sensex Nifty Tank as Crude Oil Jumps to $91/Barrel - Rediff MoneyWiz",
-      "avg_turnover_cr": 391.11
+      "avg_turnover_cr": 391.11,
+      "gap_check": {
+        "prev_close": 5275.5,
+        "open": 5155.5,
+        "gap_pct": -2.27,
+        "or_high": 5208.0,
+        "or_low": 5155.5,
+        "price_0930": 5195.0,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-19T10:17:39+05:30"
+      }
     },
     {
       "symbol": "COCHINSHIP",
@@ -115,7 +159,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Secured state government land lease for a massive 5000 crore ship block building capacity expansion project.",
       "source_headline": "Keralam Govt to lease land to CSL for Rs 5,000 cr ship block building project, says CM Satheesan",
-      "avg_turnover_cr": 155.59
+      "avg_turnover_cr": 155.59,
+      "gap_check": {
+        "prev_close": 1485.1,
+        "open": 1500.0,
+        "gap_pct": 1.0,
+        "or_high": 1506.5,
+        "or_low": 1481.2,
+        "price_0930": 1482.9,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-19T10:17:39+05:30"
+      }
     },
     {
       "symbol": "BPCL",
@@ -127,7 +182,18 @@
       "expected_behavior": "follow_through",
       "rationale": "Brent crude surging above 91 dollars compresses marketing margins for downstream oil marketing companies.",
       "source_headline": "Oil prices rise for fourth straight day as US-Iran talks remain deadlocked; Brent above $90 per barrel",
-      "avg_turnover_cr": 175.3
+      "avg_turnover_cr": 175.3,
+      "gap_check": {
+        "prev_close": 310.3,
+        "open": 310.2,
+        "gap_pct": -0.03,
+        "or_high": 311.0,
+        "or_low": 309.1,
+        "price_0930": 309.15,
+        "gap_agrees": true,
+        "interval": "1m",
+        "checked_at": "2026-08-19T10:17:39+05:30"
+      }
     }
   ]
 }

@@ -1,0 +1,7 @@
+2026-08-19 04:47:39,202 WARNING newspulse.gapcheck: intraday ASIANPAINT.NS 1m failed: database is locked
+2026-08-19 04:47:39,677 INFO newspulse.gapcheck: INDIGO: gap -2.27% (agrees=True), OR 5155.5-5208.0
+2026-08-19 04:47:39,686 INFO newspulse.gapcheck: COCHINSHIP: gap +1.00% (agrees=True), OR 1481.2-1506.5
+2026-08-19 04:47:39,756 INFO newspulse.gapcheck: ONGC: gap +0.67% (agrees=True), OR 239.91-241.9
+2026-08-19 04:47:39,763 INFO newspulse.gapcheck: INFY: gap +1.01% (agrees=False), OR 1123.1-1134.4
+2026-08-19 04:47:39,770 INFO newspulse.gapcheck: ASIANPAINT: gap -0.13% (agrees=True), OR 2608.0-2625.0
+2026-08-19 04:47:39,777 INFO newspulse.gapcheck: BPCL: gap -0.03% (agrees=True), OR 309.1-311.0
