@@ -1,0 +1,133 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T08:54:58+05:30",
+  "status": "pending",
+  "market_context": {
+    "bias": "bearish",
+    "reasons": [
+      "Deep global equity sell-off led by sharp slump in Asian and US tech futures",
+      "Brent crude spiking above 91 dollars per barrel increases domestic inflation and margin pressures"
+    ],
+    "cues": {
+      "sp500": {
+        "last": 7691.76,
+        "change_pct": -0.69,
+        "name": "S&P 500"
+      },
+      "nasdaq": {
+        "last": 26289.71,
+        "change_pct": -1.33,
+        "name": "Nasdaq"
+      },
+      "dow_futures": {
+        "last": 53356.0,
+        "change_pct": -0.35,
+        "name": "Dow futures"
+      },
+      "nasdaq_futures": {
+        "last": 29531.25,
+        "change_pct": -1.88,
+        "name": "Nasdaq futures"
+      },
+      "nikkei": {
+        "last": 65724.25,
+        "change_pct": -5.05,
+        "name": "Nikkei 225"
+      },
+      "hang_seng": {
+        "last": 25475.73,
+        "change_pct": 0.09,
+        "name": "Hang Seng"
+      },
+      "brent": {
+        "last": 91.83,
+        "change_pct": 1.06,
+        "name": "Brent crude"
+      },
+      "gold": {
+        "last": 4407.2,
+        "change_pct": -0.24,
+        "name": "Gold"
+      },
+      "usdinr": {
+        "last": 95.67,
+        "change_pct": -0.03,
+        "name": "USD/INR"
+      }
+    }
+  },
+  "predictions": [
+    {
+      "symbol": "INFY",
+      "sector": "IT",
+      "direction": "SHORT",
+      "confidence": 80,
+      "catalyst_type": "macro_sector",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Heavy overnight sell-off in Nasdaq and US tech futures triggers broad risk-off pressure on Indian IT exporters.",
+      "source_headline": "Infosys shares fall 6% in 5 days tracking weakness in IT shares - Should you buy, sell or hold? - Moneycontrol.com",
+      "avg_turnover_cr": 1497.64
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "sector": "Paints",
+      "direction": "SHORT",
+      "confidence": 78,
+      "catalyst_type": "macro_sector",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Rising crude oil prices significantly inflate raw material input costs and dampen paint sector operating margins.",
+      "source_headline": "Sensex Nifty Tank as Crude Oil Jumps to $91/Barrel - Rediff MoneyWiz",
+      "avg_turnover_cr": 279.29
+    },
+    {
+      "symbol": "ONGC",
+      "sector": "Oil & Gas",
+      "direction": "LONG",
+      "confidence": 75,
+      "catalyst_type": "macro_sector",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Surging crude oil prices above 91 dollars per barrel directly boost upstream realization and operational revenues.",
+      "source_headline": "Oil prices rise for fourth straight day as US-Iran talks remain deadlocked; Brent above $90 per barrel",
+      "avg_turnover_cr": 303.32
+    },
+    {
+      "symbol": "INDIGO",
+      "sector": "Aviation",
+      "direction": "SHORT",
+      "confidence": 75,
+      "catalyst_type": "macro_sector",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Higher global crude oil directly drives aviation turbine fuel prices, raising operating costs significantly.",
+      "source_headline": "Sensex Nifty Tank as Crude Oil Jumps to $91/Barrel - Rediff MoneyWiz",
+      "avg_turnover_cr": 391.11
+    },
+    {
+      "symbol": "COCHINSHIP",
+      "sector": "Defence",
+      "direction": "LONG",
+      "confidence": 72,
+      "catalyst_type": "corporate_action",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Secured state government land lease for a massive 5000 crore ship block building capacity expansion project.",
+      "source_headline": "Keralam Govt to lease land to CSL for Rs 5,000 cr ship block building project, says CM Satheesan",
+      "avg_turnover_cr": 155.59
+    },
+    {
+      "symbol": "BPCL",
+      "sector": "Oil & Gas",
+      "direction": "SHORT",
+      "confidence": 72,
+      "catalyst_type": "macro_sector",
+      "priced_in": false,
+      "expected_behavior": "follow_through",
+      "rationale": "Brent crude surging above 91 dollars compresses marketing margins for downstream oil marketing companies.",
+      "source_headline": "Oil prices rise for fourth straight day as US-Iran talks remain deadlocked; Brent above $90 per barrel",
+      "avg_turnover_cr": 175.3
+    }
+  ]
+}
