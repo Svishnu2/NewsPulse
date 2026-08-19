@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-08-19",
+    "bias": "bearish",
+    "picks": 6,
+    "m3_success": 4,
+    "m3_total": 6,
+    "day_pnl_inr": 39.0,
+    "status": "verified"
+  },
+  {
     "date": "2026-08-18",
     "bias": "bearish",
     "picks": 6,

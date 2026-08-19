@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-08-18T16:25:07+05:30",
+  "generated_at": "2026-08-19T16:24:10+05:30",
   "notional_per_trade_inr": 10000,
-  "total_predictions": 16,
-  "sessions": 3,
+  "total_predictions": 22,
+  "sessions": 4,
   "metrics": {
     "m1_gap": {
       "overall": {
-        "success": 11,
-        "total": 16,
-        "pct": 68.8
+        "success": 16,
+        "total": 22,
+        "pct": 72.7
       },
       "by_direction": {
         "LONG": {
-          "success": 7,
-          "total": 9,
-          "pct": 77.8
+          "success": 9,
+          "total": 11,
+          "pct": 81.8
         },
         "SHORT": {
-          "success": 4,
-          "total": 7,
-          "pct": 57.1
+          "success": 7,
+          "total": 11,
+          "pct": 63.6
         }
       },
       "by_catalyst": {
         "corporate_action": {
-          "success": 3,
-          "total": 6,
-          "pct": 50.0
+          "success": 4,
+          "total": 7,
+          "pct": 57.1
         },
         "earnings": {
           "success": 2,
@@ -34,9 +34,9 @@
           "pct": 100.0
         },
         "macro_sector": {
-          "success": 4,
-          "total": 4,
-          "pct": 100.0
+          "success": 8,
+          "total": 9,
+          "pct": 88.9
         },
         "order_win": {
           "success": 0,
@@ -61,9 +61,9 @@
           "pct": 75.0
         },
         "70-85": {
-          "success": 6,
-          "total": 8,
-          "pct": 75.0
+          "success": 11,
+          "total": 14,
+          "pct": 78.6
         },
         "85+": {
           "success": 2,
@@ -74,27 +74,27 @@
     },
     "m2_day_direction": {
       "overall": {
-        "success": 13,
-        "total": 16,
-        "pct": 81.2
+        "success": 15,
+        "total": 22,
+        "pct": 68.2
       },
       "by_direction": {
         "LONG": {
           "success": 7,
-          "total": 9,
-          "pct": 77.8
+          "total": 11,
+          "pct": 63.6
         },
         "SHORT": {
-          "success": 6,
-          "total": 7,
-          "pct": 85.7
+          "success": 8,
+          "total": 11,
+          "pct": 72.7
         }
       },
       "by_catalyst": {
         "corporate_action": {
           "success": 4,
-          "total": 6,
-          "pct": 66.7
+          "total": 7,
+          "pct": 57.1
         },
         "earnings": {
           "success": 2,
@@ -102,9 +102,9 @@
           "pct": 100.0
         },
         "macro_sector": {
-          "success": 4,
-          "total": 4,
-          "pct": 100.0
+          "success": 6,
+          "total": 9,
+          "pct": 66.7
         },
         "order_win": {
           "success": 0,
@@ -129,9 +129,9 @@
           "pct": 50.0
         },
         "70-85": {
-          "success": 8,
-          "total": 8,
-          "pct": 100.0
+          "success": 10,
+          "total": 14,
+          "pct": 71.4
         },
         "85+": {
           "success": 3,
@@ -142,27 +142,27 @@
     },
     "m3_tradeable": {
       "overall": {
-        "success": 11,
-        "total": 16,
-        "pct": 68.8
+        "success": 15,
+        "total": 22,
+        "pct": 68.2
       },
       "by_direction": {
         "LONG": {
-          "success": 5,
-          "total": 9,
-          "pct": 55.6
+          "success": 6,
+          "total": 11,
+          "pct": 54.5
         },
         "SHORT": {
-          "success": 6,
-          "total": 7,
-          "pct": 85.7
+          "success": 9,
+          "total": 11,
+          "pct": 81.8
         }
       },
       "by_catalyst": {
         "corporate_action": {
-          "success": 3,
-          "total": 6,
-          "pct": 50.0
+          "success": 4,
+          "total": 7,
+          "pct": 57.1
         },
         "earnings": {
           "success": 2,
@@ -170,9 +170,9 @@
           "pct": 100.0
         },
         "macro_sector": {
-          "success": 3,
-          "total": 4,
-          "pct": 75.0
+          "success": 6,
+          "total": 9,
+          "pct": 66.7
         },
         "order_win": {
           "success": 1,
@@ -197,9 +197,9 @@
           "pct": 75.0
         },
         "70-85": {
-          "success": 7,
-          "total": 8,
-          "pct": 87.5
+          "success": 11,
+          "total": 14,
+          "pct": 78.6
         },
         "85+": {
           "success": 1,
@@ -210,12 +210,12 @@
     }
   },
   "simulated": {
-    "trades": 11,
-    "wins": 7,
-    "losses": 4,
-    "no_entry": 5,
-    "total_pnl_pct": 2.0,
-    "total_pnl_inr": 200.0,
+    "trades": 14,
+    "wins": 9,
+    "losses": 5,
+    "no_entry": 8,
+    "total_pnl_pct": 2.39,
+    "total_pnl_inr": 239.0,
     "equity_curve": [
       {
         "date": "2026-07-06",
@@ -231,6 +231,11 @@
         "date": "2026-08-18",
         "day_pnl_inr": -32.0,
         "cum_pnl_inr": 200.0
+      },
+      {
+        "date": "2026-08-19",
+        "day_pnl_inr": 39.0,
+        "cum_pnl_inr": 239.0
       }
     ]
   },
@@ -238,12 +243,13 @@
     "sessions": [
       "2026-07-06",
       "2026-08-17",
-      "2026-08-18"
+      "2026-08-18",
+      "2026-08-19"
     ],
     "m3": {
-      "success": 11,
-      "total": 16,
-      "pct": 68.8
+      "success": 15,
+      "total": 22,
+      "pct": 68.2
     }
   },
   "streak": {
