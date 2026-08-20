@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-08-20",
+    "bias": "bullish",
+    "picks": 0,
+    "m3_success": 0,
+    "m3_total": 0,
+    "day_pnl_inr": 0,
+    "status": "pending"
+  },
+  {
     "date": "2026-08-19",
     "bias": "bearish",
     "picks": 6,
