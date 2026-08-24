@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T09:01:08+05:30",
+  "status": "pending",
+  "market_context": {
+    "bias": "bearish",
+    "reasons": [],
+    "cues": {
+      "sp500": {
+        "last": 7674.37,
+        "change_pct": 0.43,
+        "name": "S&P 500"
+      },
+      "nasdaq": {
+        "last": 26180.46,
+        "change_pct": 0.43,
+        "name": "Nasdaq"
+      },
+      "dow_futures": {
+        "last": 53364.0,
+        "change_pct": 0.02,
+        "name": "Dow futures"
+      },
+      "nasdaq_futures": {
+        "last": 29302.75,
+        "change_pct": -0.29,
+        "name": "Nasdaq futures"
+      },
+      "nikkei": {
+        "last": 65968.71,
+        "change_pct": -0.07,
+        "name": "Nikkei 225"
+      },
+      "hang_seng": {
+        "last": 25466.93,
+        "change_pct": -2.09,
+        "name": "Hang Seng"
+      },
+      "brent": {
+        "last": 93.14,
+        "change_pct": -1.32,
+        "name": "Brent crude"
+      },
+      "gold": {
+        "last": 4692.9,
+        "change_pct": 1.49,
+        "name": "Gold"
+      },
+      "usdinr": {
+        "last": 95.64,
+        "change_pct": -0.14,
+        "name": "USD/INR"
+      }
+    }
+  },
+  "predictions": [],
+  "note": "LLM scoring failed after retries."
+}
