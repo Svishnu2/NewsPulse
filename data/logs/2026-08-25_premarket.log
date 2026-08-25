@@ -1,0 +1,29 @@
+2026-08-25 03:25:53,094 INFO newspulse.premarket: Pre-market job starting at 2026-08-25T08:55:53+05:30
+2026-08-25 03:25:53,095 INFO newspulse.premarket: News window: since 2026-08-24T15:30:00+05:30
+2026-08-25 03:25:53,945 INFO newspulse.premarket: Feed ET Markets                   -> 50 fresh items
+2026-08-25 03:25:53,970 INFO newspulse.premarket: Feed Livemint Markets             -> 33 fresh items
+2026-08-25 03:25:53,972 INFO newspulse.premarket: Feed ET Stocks                    -> 29 fresh items
+2026-08-25 03:25:54,035 INFO newspulse.premarket: Global cues: bias=bearish score=-0.267
+2026-08-25 03:25:54,314 INFO newspulse.premarket: Feed Google News: NSE quarterly results -> 0 fresh items
+2026-08-25 03:25:54,375 INFO newspulse.premarket: Feed Google News: nifty stocks    -> 51 fresh items
+2026-08-25 03:25:54,452 INFO newspulse.premarket: Feed Google News: stocks to watch moneycontrol -> 5 fresh items
+2026-08-25 03:25:54,527 INFO newspulse.premarket: Feed Google News: indian stock market today -> 25 fresh items
+2026-08-25 03:25:54,542 INFO newspulse.premarket: Feed Google News: RBI rate decision -> 0 fresh items
+2026-08-25 03:25:54,544 INFO newspulse.premarket: News total after dedupe: 156 headlines
+2026-08-25 03:25:55,217 INFO newspulse.premarket: NSE announcements: 577 items
+2026-08-25 03:25:55,549 WARNING newspulse.premarket: NSE /api/foSecurityInBanPeriod attempt 1/3: Client error '404 Not Found' for url 'https://www.nseindia.com/api/foSecurityInBanPeriod'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 03:25:57,637 WARNING newspulse.premarket: NSE /api/foSecurityInBanPeriod attempt 2/3: Client error '404 Not Found' for url 'https://www.nseindia.com/api/foSecurityInBanPeriod'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 03:26:01,679 WARNING newspulse.premarket: NSE /api/foSecurityInBanPeriod attempt 3/3: Client error '404 Not Found' for url 'https://www.nseindia.com/api/foSecurityInBanPeriod'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 03:26:01,679 WARNING newspulse.premarket: NSE /api/foSecurityInBanPeriod: giving up, continuing without this source
+2026-08-25 03:26:02,304 INFO newspulse.premarket: F&O ban list (archive CSV): 0 symbols
+2026-08-25 03:26:03,001 INFO newspulse.premarket: Total headlines: 683 (RSS 156, NSE 577)
+2026-08-25 03:26:04,004 INFO newspulse.premarket: Matched: 68 symbols with direct news, 2 macro hits
+2026-08-25 03:26:04,004 INFO newspulse.premarket: Prompt size: 12848 chars
+2026-08-25 03:26:28,927 WARNING newspulse.premarket: Gemini attempt 1 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-08-25 03:26:47,899 WARNING newspulse.premarket: Gemini attempt 2 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-08-25 03:27:21,396 WARNING newspulse.premarket: Gemini attempt 3 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-08-25 03:27:21,396 ERROR newspulse.premarket: Gemini scoring failed — publishing empty prediction file
+2026-08-25 03:27:21,397 INFO newspulse.premarket: Wrote 2026-08-25.json with 0 picks
