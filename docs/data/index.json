@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-08-25",
+    "bias": "bearish",
+    "picks": 0,
+    "m3_success": 0,
+    "m3_total": 0,
+    "day_pnl_inr": 0,
+    "status": "pending"
+  },
+  {
     "date": "2026-08-24",
     "bias": "bearish",
     "picks": 0,
