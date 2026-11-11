@@ -1,0 +1,2 @@
+2026-11-11 17:58:11,561 INFO newspulse.verify: No predictions for 2026-11-11 — refreshing stats/dashboard only
+2026-11-11 17:58:11,565 INFO newspulse.verify: Stats: 22 predictions over 4 sessions, m3 68.2%, sim P&L Rs 239
